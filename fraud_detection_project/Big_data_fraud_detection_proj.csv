@@ -1,0 +1,501 @@
+Transaction_Amount,Transaction_Time,User_Location,Merchant_Location,User_Age,Device_Type,Fraud_Label
+380.7947176588889,21,Harare,Nairobi,41,Desktop,0
+951.207163345817,16,Kampala,Luanda,53,Mobile,1
+734.6740023932911,8,Harare,Harare,27,Tablet,0
+602.6718993550662,0,Kigali,Johannesburg,15,Tablet,1
+164.45845403801215,20,Tokyo,Addis Ababa,27,Desktop,1
+164.43457513284062,19,Harare,Paris,28,Mobile,1
+67.50277604651747,12,Harare,Addis Ababa,31,Mobile,0
+867.5143843171858,15,Luanda,Harare,46,Mobile,1
+605.1038616257767,12,Harare,Luanda,41,Desktop,0
+710.9918520180851,13,Bujumbura,Dar es Salaam,50,Mobile,0
+30.378649352844423,2,Dar es Salaam,Lagos,12,Desktop,1
+970.2107536403744,5,Accra,Accra,37,Desktop,0
+834.1182143924175,17,Dakar,London,19,Desktop,1
+220.2157195714934,18,Lagos,New York,44,Tablet,1
+190.00671753502962,4,Nairobi,Accra,38,Mobile,0
+191.5704647548995,14,Dar es Salaam,Harare,24,Mobile,0
+311.1998205299424,1,Addis Ababa,New York,42,Desktop,1
+529.5088673159155,9,Accra,Paris,16,Desktop,1
+437.62556845569463,23,Kigali,Kampala,21,Mobile,0
+298.3168487960615,17,Kigali,Dakar,58,Desktop,0
+615.7343657751557,12,Paris,Lagos,39,Mobile,1
+148.09892204552142,4,London,Nairobi,30,Tablet,1
+299.22320204986596,22,Harare,Nairobi,40,Desktop,0
+372.6982248607548,23,Dar es Salaam,Harare,33,Mobile,0
+461.50928437486556,0,Johannesburg,Accra,29,Desktop,0
+787.3242017790834,21,Luanda,Nairobi,46,Mobile,0
+207.67704433677613,0,Kampala,Paris,13,Mobile,1
+519.0920940294754,17,Addis Ababa,London,37,Desktop,1
+596.4904231734221,14,Kigali,Dar es Salaam,53,Tablet,0
+55.98590859279775,16,Lagos,Addis Ababa,29,Mobile,0
+611.4694033824239,10,Kigali,Bujumbura,33,Mobile,0
+178.8188824504186,20,Nairobi,Paris,59,Mobile,1
+74.40107705542673,21,Dakar,New York,58,Tablet,1
+949.3966818807999,16,Kigali,Johannesburg,41,Tablet,1
+965.9757127438138,12,Nairobi,Harare,50,Desktop,1
+810.3133746352966,0,Dar es Salaam,Kampala,45,Tablet,1
+311.56763148163697,1,Dar es Salaam,Dakar,43,Desktop,0
+106.69539286632003,8,Luanda,Johannesburg,45,Desktop,0
+687.3906962470353,2,London,Dakar,11,Tablet,1
+445.7509688022053,0,Paris,Kigali,24,Desktop,1
+130.81785249633106,20,Accra,Johannesburg,43,Tablet,0
+500.2251410101575,15,Kigali,Bujumbura,45,Desktop,0
+44.04463590406621,22,Lagos,Accra,15,Tablet,1
+910.2271980579942,5,Kigali,Dar es Salaam,48,Tablet,1
+266.1921817840167,16,Tokyo,Addis Ababa,51,Desktop,1
+665.8970615104422,4,Paris,Addis Ababa,21,Mobile,1
+318.59396532851684,4,New York,Dar es Salaam,12,Desktop,1
+524.8673409660327,5,Lagos,London,54,Tablet,1
+551.2431765498469,2,Bujumbura,Lagos,27,Mobile,0
+193.00591097027177,20,Harare,Kigali,49,Desktop,0
+969.888781486913,22,Accra,Dakar,30,Desktop,1
+777.3814951275034,4,Bujumbura,Bujumbura,24,Desktop,0
+940.1039521485473,20,New York,Nairobi,42,Mobile,1
+895.8790769233724,4,Tokyo,Johannesburg,44,Tablet,1
+601.9209790229743,9,New York,Kigali,35,Desktop,1
+922.6554926728857,9,Paris,Paris,17,Desktop,1
+97.6075770314003,18,Kigali,Harare,45,Desktop,0
+204.02303379495373,16,Paris,Johannesburg,57,Desktop,1
+54.775016021432684,20,Paris,Bujumbura,39,Desktop,1
+332.0770274556317,13,New York,Kampala,32,Tablet,1
+394.7905167925872,8,Tokyo,Kampala,51,Tablet,1
+278.63554145615694,13,Accra,New York,53,Desktop,1
+830.45013406041,0,Bujumbura,Kigali,23,Mobile,1
+363.1857934266534,18,Kampala,Accra,23,Tablet,0
+288.1251645905069,12,Kigali,Bujumbura,11,Mobile,1
+547.269122326666,12,New York,Tokyo,46,Tablet,1
+149.51498272501502,3,Bujumbura,Bujumbura,14,Desktop,1
+804.1750109464992,0,London,Dar es Salaam,47,Tablet,1
+83.80513724297312,16,Kampala,Paris,54,Desktop,1
+987.0180672345122,7,Kampala,Accra,50,Tablet,1
+774.5223216036909,1,Dar es Salaam,Paris,56,Desktop,1
+206.72852471883067,7,Luanda,London,23,Desktop,1
+15.466895952366375,6,Kigali,Dakar,48,Desktop,0
+817.3068141702859,1,Kampala,Dakar,34,Desktop,1
+709.788770409141,21,New York,Nairobi,29,Mobile,1
+731.7170963605774,21,Dar es Salaam,New York,11,Desktop,1
+773.5576432190862,2,Bujumbura,Addis Ababa,48,Mobile,0
+83.30420521674945,17,London,Kampala,15,Mobile,1
+364.8810712588299,11,Nairobi,Harare,26,Desktop,0
+124.71036892987841,0,Kigali,Dakar,34,Mobile,0
+864.4723916168376,21,Accra,Accra,37,Tablet,0
+627.0651455592823,11,Paris,Bujumbura,11,Desktop,1
+337.5890446041227,4,Lagos,Harare,44,Mobile,0
+72.9227667831634,16,Lagos,Luanda,46,Desktop,0
+317.8724984985056,15,Bujumbura,Paris,14,Desktop,1
+331.9314888064796,14,Tokyo,Dakar,10,Desktop,1
+732.3101165546834,22,Johannesburg,Bujumbura,49,Mobile,0
+641.181896641661,14,Johannesburg,Dakar,21,Tablet,0
+888.3406151505633,4,Bujumbura,Kampala,45,Tablet,1
+477.4927759103298,20,New York,Luanda,54,Mobile,1
+128.3983034789187,13,Kampala,Johannesburg,32,Desktop,0
+716.1123393507651,1,Luanda,Dakar,56,Mobile,0
+763.1771981307285,10,Kigali,London,40,Mobile,1
+565.6644255938013,18,Lagos,Accra,20,Mobile,0
+773.2575081550153,6,Lagos,Dakar,19,Desktop,0
+498.85764040074685,5,Luanda,Addis Ababa,12,Mobile,1
+527.5055010881741,1,Tokyo,Harare,23,Desktop,1
+433.26560817496414,5,Kampala,Harare,25,Mobile,0
+35.164935476654236,17,Lagos,Kampala,19,Tablet,0
+116.81251272337141,1,Paris,Accra,38,Mobile,1
+41.11489382986691,17,Accra,Luanda,19,Mobile,0
+640.0463071511426,14,Kigali,London,21,Tablet,1
+321.2124212655634,18,Dakar,Dar es Salaam,39,Desktop,0
+513.4849842530557,1,Lagos,Accra,50,Desktop,0
+908.490809186832,19,Bujumbura,Harare,10,Mobile,1
+256.7993068573862,5,Accra,Addis Ababa,14,Tablet,1
+416.2790938052734,0,Lagos,Tokyo,29,Desktop,1
+757.9956271576182,23,Harare,Johannesburg,17,Mobile,0
+236.51018383670623,14,London,Kampala,52,Tablet,1
+86.21011073050506,22,Paris,Dar es Salaam,21,Desktop,1
+296.85393838463034,9,Accra,Addis Ababa,10,Desktop,1
+169.60907438146438,18,Dar es Salaam,Luanda,29,Tablet,0
+930.4006758191473,16,Dakar,Tokyo,37,Tablet,1
+810.0391757687728,4,London,Paris,52,Tablet,1
+637.0697189453192,3,Addis Ababa,Luanda,46,Tablet,0
+872.7459842858406,9,Bujumbura,Addis Ababa,56,Mobile,1
+805.6353561301233,23,Bujumbura,Paris,46,Tablet,1
+194.70435829717547,16,Kigali,Kigali,21,Desktop,0
+893.633408505078,9,Luanda,Kampala,46,Desktop,1
+543.9488194964943,16,London,Accra,58,Mobile,1
+809.3657536124219,19,Accra,Paris,58,Desktop,1
+897.1303869242583,23,Kampala,Tokyo,53,Desktop,1
+324.8234402221452,4,Bujumbura,New York,37,Tablet,1
+118.95140528239999,1,Tokyo,Paris,56,Desktop,1
+235.65581091652226,5,Accra,Bujumbura,24,Mobile,0
+432.83671073999375,20,New York,Johannesburg,15,Tablet,1
+819.8346182632682,1,Tokyo,Bujumbura,53,Tablet,1
+862.12327742378,12,Accra,Accra,29,Mobile,0
+16.882609225878795,10,New York,Accra,59,Tablet,1
+515.6398295517901,10,Harare,Kampala,23,Tablet,0
+423.2368931172912,15,Tokyo,Accra,11,Mobile,1
+229.88673236602295,10,Nairobi,Harare,18,Tablet,0
+128.66671366034598,18,Nairobi,Paris,46,Mobile,1
+344.23901968959166,14,Addis Ababa,Paris,29,Mobile,1
+943.480606873394,22,Dar es Salaam,Kigali,35,Desktop,1
+329.9709027005477,22,Addis Ababa,Dar es Salaam,38,Desktop,0
+523.6027155259325,15,New York,Accra,10,Tablet,1
+705.9887693062261,10,London,Bujumbura,44,Tablet,1
+369.99330635550103,21,Lagos,Tokyo,15,Mobile,1
+972.0642618937511,15,Tokyo,Accra,46,Tablet,1
+962.8228219926901,7,Kampala,Luanda,14,Mobile,1
+259.2644728671105,3,Lagos,Kigali,42,Mobile,0
+502.2760208334616,7,Johannesburg,Harare,58,Tablet,0
+307.86952671860195,3,Lagos,Harare,23,Mobile,0
+291.9920894336929,23,Kigali,Tokyo,21,Desktop,1
+46.51807788098747,2,Lagos,Dakar,51,Tablet,0
+613.4686906400979,2,Addis Ababa,Paris,29,Desktop,1
+507.6522329965729,17,Bujumbura,Harare,59,Tablet,0
+60.96396373748946,18,Tokyo,Paris,33,Mobile,1
+285.8599995942453,18,Paris,Dakar,52,Tablet,1
+909.1832271069871,20,Bujumbura,Addis Ababa,43,Desktop,1
+247.1662717603027,4,Nairobi,Johannesburg,34,Mobile,0
+153.44592337031085,17,Paris,Nairobi,59,Tablet,1
+494.5582326747874,9,Luanda,London,38,Tablet,1
+985.7939495694947,21,Kampala,Harare,48,Tablet,1
+249.6347187963854,20,Kampala,Dar es Salaam,40,Desktop,0
+675.4141919318198,5,Kigali,Luanda,56,Desktop,0
+764.0034191754304,0,London,Lagos,52,Tablet,1
+245.26116855247568,4,Addis Ababa,Addis Ababa,59,Mobile,0
+730.934185125741,8,Nairobi,Harare,32,Mobile,0
+374.1053013920607,11,Harare,Paris,53,Desktop,1
+635.9827722876437,13,Johannesburg,Johannesburg,47,Mobile,0
+637.1944136532858,1,London,Dakar,29,Desktop,1
+540.4169372340109,16,Kampala,Bujumbura,32,Tablet,0
+99.38687235386422,13,Bujumbura,London,54,Desktop,1
+836.9494706333456,12,Lagos,Lagos,25,Desktop,0
+327.5722643220185,8,Lagos,Johannesburg,59,Tablet,0
+194.6533252958557,14,Luanda,Johannesburg,51,Mobile,0
+50.367390139216276,21,Nairobi,Tokyo,17,Desktop,1
+594.9840137563594,14,Addis Ababa,Harare,59,Desktop,0
+680.7887182238596,23,Addis Ababa,Addis Ababa,30,Tablet,0
+26.42195063857759,10,Dar es Salaam,New York,10,Mobile,1
+516.9721277162882,15,Tokyo,Lagos,17,Desktop,1
+234.23081744595856,16,New York,London,38,Tablet,1
+648.7210625053553,3,Dakar,Kampala,41,Desktop,0
+182.62276471494152,0,Kampala,Nairobi,47,Tablet,0
+694.0283607214413,7,Addis Ababa,Kampala,14,Mobile,1
+392.86799283753203,16,Luanda,New York,56,Mobile,1
+937.3626888493671,2,Bujumbura,Paris,31,Mobile,1
+146.1457347045333,19,Nairobi,Paris,56,Mobile,1
+347.65568753975595,14,Johannesburg,Luanda,43,Desktop,0
+122.33878602818318,14,Dar es Salaam,Lagos,10,Desktop,1
+925.4466820957772,23,Luanda,Kampala,35,Mobile,1
+878.5659598471713,21,Accra,Tokyo,52,Mobile,1
+265.362211438004,13,Kigali,Paris,19,Mobile,1
+663.3842055738372,22,Johannesburg,New York,39,Desktop,1
+819.0499781992037,13,New York,Harare,59,Mobile,1
+559.6488034834678,23,Accra,Kigali,27,Mobile,0
+534.3540725724464,1,Harare,Dakar,26,Mobile,0
+249.43376799144716,12,New York,Kigali,35,Tablet,1
+102.17174012784022,13,Lagos,Accra,17,Mobile,0
+898.2436003737935,23,Tokyo,London,56,Tablet,1
+901.4138765916972,18,Tokyo,Kampala,49,Tablet,1
+636.7704427005352,6,Kigali,Luanda,58,Mobile,0
+345.63949313821365,2,Kampala,Tokyo,21,Tablet,1
+355.7174788665343,14,Bujumbura,Accra,36,Mobile,0
+728.6961220815369,22,Kigali,Paris,17,Desktop,1
+898.1391573530514,13,New York,Bujumbura,34,Desktop,1
+888.2155600224661,10,Dakar,Tokyo,55,Desktop,1
+782.0767903990476,14,Accra,Dar es Salaam,13,Desktop,1
+645.6113296927449,12,Kampala,Bujumbura,42,Tablet,0
+93.29856534509834,17,Paris,New York,10,Mobile,1
+170.01242695366764,5,Dakar,Lagos,28,Mobile,0
+899.5686466418084,2,Lagos,Johannesburg,40,Mobile,1
+610.364769062994,18,Dakar,Dakar,25,Desktop,0
+19.10508110046335,14,Dar es Salaam,Tokyo,23,Desktop,1
+110.45682743737179,22,Dar es Salaam,Kampala,57,Mobile,0
+666.8667514169753,4,Harare,London,14,Desktop,1
+15.0109680077565,9,New York,Luanda,50,Mobile,1
+169.19997090332367,6,Nairobi,Luanda,35,Mobile,0
+553.2464514729203,16,Johannesburg,London,37,Mobile,1
+694.9762457157664,6,Johannesburg,New York,11,Mobile,1
+655.4416469075745,21,Paris,Addis Ababa,59,Mobile,1
+232.0266163659542,11,Paris,Paris,15,Mobile,1
+715.0574291340605,16,Kampala,Dar es Salaam,18,Mobile,0
+244.87659662183208,12,Lagos,Nairobi,42,Desktop,0
+332.14570117767505,19,Addis Ababa,Nairobi,50,Mobile,0
+749.0264910668438,3,Harare,Tokyo,34,Mobile,1
+653.1365700567425,9,Dar es Salaam,Nairobi,57,Desktop,0
+850.7311763892361,2,Kampala,Kampala,22,Desktop,0
+661.03676337734,8,Tokyo,Nairobi,18,Desktop,1
+572.6255173021169,12,Addis Ababa,Harare,22,Mobile,0
+102.73802014981155,17,Johannesburg,Tokyo,40,Tablet,1
+374.0386450288392,14,Nairobi,Kigali,50,Tablet,0
+272.5503440049082,3,Dakar,Luanda,20,Desktop,0
+251.54974694529275,14,Dar es Salaam,Dar es Salaam,13,Tablet,1
+973.2804492049211,21,Kampala,Kigali,43,Desktop,1
+399.1667474200928,1,Kigali,Johannesburg,47,Mobile,0
+893.1260896253422,14,Addis Ababa,Dar es Salaam,55,Tablet,1
+634.8272397372903,7,Dakar,Kigali,13,Mobile,1
+796.863190506232,7,Dar es Salaam,Dar es Salaam,47,Tablet,0
+507.61072217414016,16,Johannesburg,Johannesburg,28,Mobile,0
+581.1348457800955,11,Luanda,Accra,15,Tablet,1
+497.59251688067525,18,Lagos,Harare,43,Mobile,0
+203.29055792006406,9,Addis Ababa,Kampala,27,Mobile,0
+725.2275941088902,8,Johannesburg,Kampala,22,Tablet,0
+287.96463881644723,4,Dar es Salaam,New York,50,Mobile,1
+34.0728067671393,5,Addis Ababa,Tokyo,32,Mobile,1
+649.0175729480961,19,Harare,London,28,Mobile,1
+185.33957261297846,1,Dakar,Paris,54,Tablet,1
+941.0539985093851,23,London,Luanda,20,Tablet,1
+954.3892912325615,12,Dar es Salaam,Nairobi,10,Mobile,1
+915.715746318244,5,Harare,Harare,33,Mobile,0
+376.45711325288994,4,Accra,Bujumbura,16,Tablet,0
+25.302050363578754,0,Kampala,Nairobi,34,Tablet,0
+929.0353769618481,20,Luanda,Paris,30,Mobile,1
+433.9023068341412,21,Paris,Luanda,24,Mobile,1
+966.9882708532328,20,Dakar,Lagos,10,Mobile,1
+963.9837773183604,5,Addis Ababa,Paris,21,Desktop,1
+854.4793609126865,5,Lagos,Harare,16,Tablet,1
+301.5044031488898,22,Johannesburg,Kigali,24,Desktop,0
+391.246751315906,15,Paris,Dar es Salaam,30,Tablet,1
+852.6253048016883,3,Kigali,London,28,Tablet,1
+323.75278510471486,10,Johannesburg,London,38,Tablet,1
+177.79781921923157,23,Addis Ababa,Tokyo,34,Tablet,1
+561.2332498337666,22,Luanda,Bujumbura,42,Tablet,0
+936.7932264191732,8,New York,Harare,58,Tablet,1
+699.0694987082233,22,Johannesburg,Johannesburg,41,Tablet,0
+574.3605583884713,2,New York,Lagos,58,Desktop,1
+106.20472883306086,18,Tokyo,Johannesburg,44,Mobile,1
+618.857154432178,7,Kampala,Kampala,53,Mobile,0
+990.1533116032207,4,Luanda,New York,47,Desktop,1
+148.6831750841588,3,Dar es Salaam,Kampala,35,Desktop,0
+523.1463558400993,23,Harare,Paris,20,Desktop,1
+878.5993412086759,5,Kigali,Nairobi,44,Desktop,1
+743.3609315766624,1,Bujumbura,Kigali,17,Tablet,0
+700.0455835853153,19,Addis Ababa,Bujumbura,55,Mobile,0
+705.4592431472382,10,Nairobi,Paris,23,Tablet,1
+365.89623970755764,3,Bujumbura,Dakar,19,Mobile,0
+300.6559258218484,14,Johannesburg,Lagos,11,Mobile,1
+811.2675439237285,5,Paris,London,55,Desktop,1
+812.012260732389,21,Addis Ababa,Lagos,18,Tablet,1
+868.4015953943026,16,Harare,Paris,12,Desktop,1
+914.1081470309066,23,Accra,Paris,30,Tablet,1
+516.2289748723284,5,Harare,Harare,35,Mobile,0
+506.5011317403276,18,Tokyo,Nairobi,17,Desktop,1
+800.3122271771074,1,Nairobi,Tokyo,57,Desktop,1
+653.4642914699875,14,Kigali,Kampala,11,Mobile,1
+704.9472084851263,10,Harare,London,15,Mobile,1
+797.83474274174,7,Lagos,New York,37,Mobile,1
+891.1052883993906,18,Accra,Nairobi,38,Desktop,1
+344.61520528302043,12,Bujumbura,Dar es Salaam,35,Tablet,0
+381.8271231135446,11,Dar es Salaam,Harare,34,Desktop,0
+103.04212044246032,4,Kampala,Harare,21,Tablet,0
+582.4973395862122,5,Lagos,Bujumbura,14,Desktop,1
+45.582851058774665,21,London,Kigali,43,Desktop,1
+470.94203795113555,3,Accra,New York,57,Mobile,1
+547.2181883605009,18,Dar es Salaam,Luanda,46,Tablet,0
+293.67583960700154,19,Dar es Salaam,Accra,24,Desktop,0
+594.9249279633207,0,Addis Ababa,Luanda,53,Desktop,0
+40.195247439658935,19,Accra,Paris,45,Mobile,1
+46.974706861722275,16,Kigali,Addis Ababa,24,Mobile,0
+824.3745550530617,11,Johannesburg,London,52,Tablet,1
+366.58873499715025,14,Nairobi,Tokyo,57,Desktop,1
+135.78990752536595,0,London,Addis Ababa,32,Tablet,1
+527.0208274542563,13,Nairobi,Harare,15,Desktop,1
+772.2936175676248,5,Bujumbura,Nairobi,55,Tablet,0
+223.66281722187475,4,Bujumbura,Dar es Salaam,59,Mobile,0
+626.6615710608103,10,Nairobi,Bujumbura,53,Desktop,0
+94.49399034383032,3,Harare,Dakar,52,Tablet,0
+61.16490395692162,12,Kigali,Addis Ababa,54,Mobile,0
+536.0410852524665,10,New York,Bujumbura,30,Mobile,1
+545.2287703940054,2,Harare,Harare,32,Tablet,0
+641.0556024832244,0,Paris,Kigali,52,Desktop,1
+728.8304203854349,5,Harare,Johannesburg,25,Desktop,0
+976.0935586679093,17,Kampala,Luanda,56,Mobile,1
+521.1373448181834,23,Dakar,Dar es Salaam,24,Desktop,0
+329.7269082118335,9,Johannesburg,London,34,Desktop,1
+797.2343328210167,4,Kampala,Kampala,45,Desktop,0
+278.12392874945346,22,Addis Ababa,Paris,20,Mobile,1
+444.58170649857976,9,Dakar,Bujumbura,24,Tablet,0
+87.67181752884329,11,Dakar,Tokyo,13,Desktop,1
+35.09723598130294,1,Accra,Kigali,30,Mobile,0
+963.0219305311458,12,Kigali,Dakar,22,Mobile,1
+837.6203193070837,7,Kigali,Accra,31,Tablet,1
+699.014464032761,1,Dakar,Luanda,28,Desktop,0
+414.86341497012717,19,Paris,Kampala,43,Desktop,1
+181.5613768701373,0,Harare,London,23,Tablet,1
+164.8726722443752,4,Accra,Luanda,13,Tablet,1
+257.74046918294937,8,Johannesburg,Tokyo,57,Mobile,1
+553.7343980590592,16,Dakar,Harare,55,Mobile,0
+717.4499634730618,8,Lagos,Accra,36,Tablet,0
+663.595402950554,10,Bujumbura,Luanda,38,Desktop,0
+287.1345579764834,14,Bujumbura,New York,56,Mobile,1
+955.3166278565621,23,Kampala,Dakar,37,Mobile,1
+740.5179475288109,5,Addis Ababa,Kigali,44,Desktop,0
+558.8105119862867,22,Luanda,Paris,17,Mobile,1
+615.6035387720087,2,Luanda,Addis Ababa,25,Desktop,0
+425.40406180351204,16,Bujumbura,Accra,51,Desktop,0
+255.25367960614588,4,New York,London,45,Desktop,1
+362.41295186474895,11,Dar es Salaam,Harare,39,Tablet,0
+760.2676493597254,17,Kampala,New York,27,Tablet,1
+24.24955374345831,13,Luanda,Kampala,11,Tablet,1
+124.91191410184707,20,Bujumbura,Nairobi,58,Desktop,0
+55.54261560153522,23,Addis Ababa,Lagos,22,Desktop,0
+50.32151429578043,10,Luanda,Bujumbura,13,Tablet,1
+856.9059781708971,8,Harare,Paris,35,Mobile,1
+706.6212807862235,1,Harare,Tokyo,34,Desktop,1
+479.4320907964519,11,Kigali,Luanda,39,Mobile,0
+106.85581904449147,2,Paris,Addis Ababa,20,Mobile,1
+496.699716365664,2,Kigali,Accra,16,Desktop,0
+478.73705307276003,0,Johannesburg,Luanda,40,Desktop,0
+181.46985121091504,7,Dakar,Johannesburg,53,Mobile,0
+439.5131327455933,21,Lagos,Bujumbura,19,Mobile,0
+404.5196870533997,7,Kigali,Nairobi,48,Tablet,0
+619.6915970716943,10,London,New York,22,Tablet,1
+638.7427143589673,8,Luanda,London,40,Desktop,1
+54.85096967432407,4,New York,Dakar,16,Tablet,1
+380.8664884802065,13,Tokyo,New York,58,Tablet,1
+629.601316557094,2,Accra,New York,51,Tablet,1
+508.10489599428684,20,Bujumbura,Lagos,51,Tablet,0
+857.924942776439,4,Accra,Kigali,45,Mobile,1
+662.1066953027556,4,London,New York,29,Desktop,1
+171.3050828106154,18,Addis Ababa,Luanda,13,Tablet,1
+79.86305992642555,13,Kigali,Nairobi,16,Mobile,0
+645.9950854242525,3,Lagos,Nairobi,10,Mobile,1
+36.24619743620559,12,Addis Ababa,Dakar,53,Mobile,0
+589.9178254607286,9,Dar es Salaam,Dar es Salaam,54,Tablet,0
+940.8279390107081,17,Tokyo,Tokyo,51,Tablet,1
+579.7194360971201,7,Dar es Salaam,Dakar,56,Desktop,0
+394.2882269444567,7,Accra,Luanda,22,Tablet,0
+646.8553362579296,6,Dakar,London,31,Tablet,1
+463.6703615866015,7,Kampala,Dar es Salaam,30,Mobile,0
+550.1606214227755,13,Dakar,Dar es Salaam,31,Desktop,0
+942.0501606887599,18,Luanda,Addis Ababa,37,Tablet,1
+392.2416114227665,5,London,Addis Ababa,18,Tablet,1
+961.5786581856751,0,Harare,Kampala,35,Mobile,1
+906.2971355365031,22,Johannesburg,Accra,18,Mobile,1
+203.83322344140348,14,Dakar,Accra,24,Tablet,0
+78.6676878664138,0,Paris,Harare,19,Desktop,1
+109.77022136365238,16,Johannesburg,Tokyo,33,Desktop,1
+28.03960739503423,0,London,Paris,51,Mobile,1
+103.49853114836911,14,Tokyo,Kigali,17,Mobile,1
+686.1767056821933,22,Johannesburg,Accra,33,Tablet,0
+80.4767619756267,1,Tokyo,Addis Ababa,25,Mobile,1
+325.7858739908237,13,Lagos,Kampala,58,Tablet,0
+846.42655785976,20,Kigali,New York,35,Desktop,1
+33.03921637846761,7,Lagos,Tokyo,36,Desktop,1
+816.3237977630464,7,Johannesburg,Kampala,46,Tablet,1
+289.03622702566594,18,Addis Ababa,New York,13,Mobile,1
+126.9831793454397,6,Dar es Salaam,London,59,Desktop,1
+699.7697937105091,18,Johannesburg,London,33,Mobile,1
+632.6534183120851,5,Lagos,Dar es Salaam,28,Desktop,0
+878.6972933917824,5,New York,Tokyo,45,Tablet,1
+737.720333365847,2,London,Harare,48,Tablet,1
+805.4461210810001,6,Addis Ababa,Paris,19,Tablet,1
+289.21422684559343,18,Lagos,Dakar,34,Desktop,0
+185.6651483419256,7,Dakar,Kigali,27,Mobile,0
+753.1086041244497,9,Bujumbura,Luanda,28,Mobile,0
+808.7663918745914,19,Tokyo,Dar es Salaam,45,Mobile,1
+990.6000905806666,14,Accra,Dakar,19,Desktop,1
+418.4915001423122,14,Kampala,Accra,42,Desktop,0
+378.29790493485535,0,Harare,Harare,59,Desktop,0
+778.6488311345769,19,Lagos,Dar es Salaam,14,Desktop,1
+347.39550485048767,6,Paris,Bujumbura,56,Desktop,1
+931.449752347529,3,Kampala,Accra,58,Mobile,1
+859.8286243245817,5,London,Dakar,44,Desktop,1
+434.70408710126816,0,New York,Kigali,53,Desktop,1
+753.3623571135824,4,Nairobi,Luanda,43,Mobile,0
+756.9974453438356,22,Lagos,Dakar,42,Desktop,0
+112.09263014757329,0,Bujumbura,New York,30,Mobile,1
+903.527377612771,3,Kampala,Tokyo,26,Mobile,1
+510.1998487233786,21,Harare,London,31,Tablet,1
+828.1928914466642,1,Johannesburg,Tokyo,57,Tablet,1
+326.8491050203056,9,Lagos,Dar es Salaam,46,Tablet,0
+896.5679962112384,4,Kigali,Dar es Salaam,24,Tablet,1
+395.3096619468215,9,New York,Luanda,44,Desktop,1
+20.729274965495378,0,London,Nairobi,37,Tablet,1
+906.328156655071,21,Accra,Kigali,16,Mobile,1
+100.37381001827222,5,Bujumbura,Johannesburg,41,Desktop,0
+326.12050121451074,12,Luanda,Accra,20,Tablet,0
+950.5613473802969,14,Luanda,Tokyo,19,Mobile,1
+951.1010754681805,3,Paris,Kampala,18,Desktop,1
+577.7035092420532,12,Kampala,Luanda,23,Desktop,0
+635.5188400481013,23,Bujumbura,Kigali,22,Tablet,0
+453.96106675853656,19,Addis Ababa,Kampala,34,Desktop,0
+300.27866398108387,23,Harare,Kigali,11,Mobile,1
+335.3778999162168,14,Accra,Kigali,44,Desktop,0
+675.7932715162681,7,Johannesburg,Dakar,16,Mobile,0
+754.8507841433033,4,Lagos,Paris,30,Desktop,1
+793.66325328859,14,Lagos,New York,27,Tablet,1
+791.7219613666083,3,Luanda,Kigali,12,Mobile,1
+100.29404201820347,11,Lagos,Paris,51,Desktop,1
+499.4761016555557,12,London,Nairobi,48,Desktop,1
+66.98317241647784,1,Accra,Johannesburg,50,Desktop,0
+554.0335935004982,18,Kigali,Dar es Salaam,58,Mobile,0
+447.1151963596432,18,Nairobi,Lagos,20,Mobile,0
+888.8271409307167,3,Paris,Kampala,48,Mobile,1
+357.4058624265579,3,Dar es Salaam,Dar es Salaam,33,Tablet,0
+125.8963462633298,10,Dakar,Lagos,55,Tablet,0
+151.5617652323075,4,Paris,Johannesburg,28,Mobile,1
+763.8955254002975,19,Kampala,New York,13,Desktop,1
+622.0358826830984,10,Kigali,Johannesburg,35,Tablet,0
+110.11144936156234,9,Tokyo,Kampala,47,Mobile,1
+93.26573805384746,7,Paris,London,51,Desktop,1
+703.9594401445288,5,Johannesburg,Kampala,41,Tablet,0
+82.03537630055159,5,Luanda,Johannesburg,48,Desktop,0
+823.6414586974527,7,New York,Lagos,54,Desktop,1
+709.1798048849313,22,Kampala,Luanda,55,Desktop,0
+90.53529283548076,14,Lagos,Kigali,45,Desktop,0
+93.98933694434,13,Bujumbura,Accra,49,Tablet,0
+986.7731827161637,10,Johannesburg,Harare,46,Tablet,1
+380.5280877985591,11,Kampala,Paris,42,Tablet,1
+376.935725596222,12,New York,Bujumbura,45,Mobile,1
+814.6715715849275,7,Harare,Harare,12,Tablet,1
+947.7760916100201,17,Lagos,Dar es Salaam,18,Desktop,1
+986.1410531846421,0,Paris,Dakar,17,Tablet,1
+755.8444034063522,14,Paris,Dar es Salaam,42,Desktop,1
+382.4969896756066,7,Kampala,Dakar,15,Mobile,1
+92.66570953168208,10,Tokyo,Lagos,50,Desktop,1
+779.3754467681624,11,Tokyo,London,48,Desktop,1
+562.820207238447,11,Bujumbura,Tokyo,13,Desktop,1
+429.97978915450653,3,Harare,Dakar,22,Mobile,0
+907.2908412437886,15,Lagos,Kampala,58,Tablet,1
+120.08550748308983,3,New York,Luanda,11,Tablet,1
+497.6988532479506,4,Nairobi,Accra,14,Mobile,1
+21.240108319744877,23,Paris,Accra,53,Desktop,1
+473.974035574185,4,New York,Kampala,36,Tablet,1
+65.74024292501898,7,Kigali,Luanda,41,Mobile,0
+127.6297371053912,9,Paris,New York,30,Tablet,1
+126.35098430933384,16,New York,Nairobi,17,Mobile,1
+652.718199094903,8,Addis Ababa,New York,47,Desktop,1
+748.5844304727691,21,Luanda,London,17,Tablet,1
+587.535077446188,18,Dakar,Harare,59,Mobile,0
+962.5508229897965,13,Tokyo,London,12,Tablet,1
+381.121873728467,7,Accra,Lagos,53,Tablet,0
+292.8549654190421,8,Luanda,Harare,12,Tablet,1
+869.9131369075657,21,London,Nairobi,31,Tablet,1
+231.3598801342581,10,Dakar,Tokyo,15,Mobile,1
+963.5903140462052,22,Johannesburg,Nairobi,11,Desktop,1
+22.03292994291818,0,New York,Dar es Salaam,32,Mobile,1
+970.1800384405626,13,Dakar,Johannesburg,53,Mobile,1
+52.728312831070355,4,London,Dar es Salaam,11,Mobile,1
+892.2316825610903,20,Lagos,Johannesburg,47,Desktop,1
+532.4240979954369,13,Nairobi,London,26,Tablet,1
+993.0351481581073,3,Addis Ababa,Bujumbura,44,Tablet,1
+83.05859908804487,21,Kigali,London,43,Tablet,1
+558.3157415573075,22,New York,Dakar,32,Desktop,1
+969.609510262908,0,Kigali,Luanda,39,Tablet,1
+527.8668657284474,21,Bujumbura,Johannesburg,17,Desktop,0
+633.1046517539099,22,Paris,New York,31,Tablet,1
+698.791202094771,18,New York,Harare,53,Tablet,1
+459.9956541200955,7,Accra,Kampala,45,Mobile,0
+631.2824992832228,14,New York,Dar es Salaam,14,Desktop,1
+588.4711688038692,20,Kampala,Luanda,22,Mobile,0
+902.1464303860791,14,Nairobi,Lagos,38,Mobile,1
+54.99191653804329,8,Kampala,Luanda,40,Mobile,0
+288.15355769630804,20,New York,Paris,56,Desktop,1
+950.9073692357931,8,Addis Ababa,Dakar,25,Desktop,1
+891.3611460520071,9,Dakar,Paris,51,Tablet,1
+461.1001852578558,19,Tokyo,Bujumbura,39,Mobile,1
+623.9312718235213,20,Kigali,Johannesburg,25,Tablet,0
+284.60737115132133,8,Addis Ababa,Bujumbura,21,Mobile,0
+196.2399481265237,2,New York,Lagos,26,Desktop,1
+469.0614208905823,19,London,New York,25,Desktop,1
+359.8187057457923,10,Dakar,Nairobi,21,Desktop,0
+587.8195507323634,5,London,Paris,17,Mobile,1
+86.957290595335,1,Kigali,Accra,29,Desktop,0
+974.6508595895049,6,Dakar,Paris,12,Mobile,1
+986.3486370348069,17,Accra,Lagos,25,Tablet,1

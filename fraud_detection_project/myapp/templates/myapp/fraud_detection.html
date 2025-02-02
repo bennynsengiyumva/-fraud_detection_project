@@ -1,0 +1,241 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font6-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+      </head>
+      
+
+    
+        <style>
+        .shadow-red-custom {
+            box-shadow: 0 4px 6px rgba(244, 142, 142, 0.3), 0 1px 3px rgba(242, 125, 125, 0.15);
+        }
+   
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- Header Section -->
+    <header class="bg-white py-4 shadow-red-custom sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+            <div class="flex items-center ml-20">
+                <!-- Set logo size to 15px and make sure it doesn't affect header layout -->
+                <img src="{% static 'logo.jpg' %}" alt="Logo" class="w-[60px] h-[60px] mr-20">
+            </div>
+            <nav class="space-x-8 mr-20 font-regular text-xs" style="font-size: 15px;">
+                <a href="/" class="text-red hover:text-xs" style="font-size: 15px;">Home</a>
+                <a href="/about" class="text-black hover:text-xs" style="font-size: 15px;">About</a>
+                <a href="/fraud" class="text-black hover:text-red" style="font-size: 15px;">Fraud Detection</a>
+            </nav>
+            <div class="flex space-x-4 items-center mr-20">
+                <!-- Contact Us Button -->
+                <a href="/" class="bg-red-700 text-white px-6 py-1 rounded-md font-light text-xs flex items-center justify-center" style="box-shadow: 0 4px 8px rgba(237, 183, 183, 0.5);">
+                    <span class="font-bold text-white" style="font-size: 11px">Contact Us</span>
+                </a>
+                <!-- Search Button -->
+                <a href="#" class="flex items-center justify-center bg-white border border-red-600 text-black px-6 py-1 rounded-md font-light text-xs relative w-full lg:w-auto" style="box-shadow: 0 4px 8px rgba(237, 183, 183, 0.5);">
+                    <span class="font-light text-black" style="font-size: 11px">Search</span>
+                    <i class="text-black font-light fa-solid fa-magnifying-glass ml-4"></i> <!-- Icon after the text -->
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    
+    <script>
+        // Show and hide dropdown on hover
+        const dropdown = document.querySelectorAll('.relative');
+
+        dropdown.forEach(menuItem => {
+            const menu = menuItem.querySelector('div');
+
+            menuItem.addEventListener('mouseenter', () => {
+                menu.classList.remove('hidden');
+            });
+
+            menuItem.addEventListener('mouseleave', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
+<!-- Hero Section -->
+<section class="relative bg-cover bg-center bg-no-repeat flex items-center justify-start text-left py-20 -mt-10" style="background-image: url('Images/Contact.jpeg');">
+    
+   <!--red header-->
+    <div class="absolute inset-0 bg-red-800 mt-8 "></div> 
+
+    <div class="ml-6 w-1/2 relative z-10"> <!-- Added z-10 to ensure the content is on top of the overlay -->
+        <h1 class="ml-20 mt-8 text-white font-bold" style="font-size: 30px;">
+            Send Money
+        </h1>    
+        <p class="ml-20 mt-2 text-white font-regular" style="font-size: 15px;">With our secure and seamless money transfer service, sending money has never been easier.</p>
+    </div>
+
+    <div class="bg-white w-1/3 h-20 rounded-lg shadow-lg absolute -bottom-24 left-3/4 transform -translate-x-1/2 flex items-center justify-center relative z-10">
+        
+    </div> 
+</section>
+
+
+<!-- Send Money Section -->
+<section class="flex justify-center items-center h-screen bg-white mt-20">
+    <div class="bg-white rounded-lg shadow-lg shadow-red-custom p-10 flex max-w-5xl mx-auto">
+        <!-- Left Side: Contact Form -->
+        <div class="w-2/3 pr-10">
+            <form action="/fraud/" method="POST">
+	  		{% csrf_token %}
+                <!-- Transaction Amount -->
+                <div class="mb-4 text-black font-light relative">
+                    <i class="fas fa-dollar-sign absolute left-3 top-1/2 transform -translate-y-1/2 text-black"></i>
+                    <input type="number" placeholder="Transaction Amount"  name="Transaction_Amount" max="1000" min="0" required
+                           class="w-full pl-10 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                </div>
+                
+
+                <!-- Transaction Time -->
+<div class="mb-4 text-black font-light relative">
+    <i class="fas fa-clock absolute left-3 top-1/2 transform -translate-y-1/2 text-black"></i>
+    <input type="number" placeholder="Transaction Time"  name="Transaction_Time" max="24" min="0" required 
+           class="w-full pl-10 px-4 py-2 border border-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+</div>
+
+<!-- User Location -->
+<div class="mb-4 text-black font-light relative">
+    <i class="fas fa-map-marker-alt absolute left-3 top-1/2 transform -translate-y-1/2 text-black"></i>
+    <input type="text" placeholder="User Location" name="User_Location" required
+           class="w-full pl-10 px-4 py-2 border border-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+</div>
+
+<!-- Merchant Location -->
+<div class="mb-4 text-black font-light relative">
+    <i class="fas fa-store absolute left-3 top-1/2 transform -translate-y-1/2 text-black"></i>
+    <input type="text" placeholder="Merchant Location" name="Merchant_Location" required
+           class="w-full pl-10 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+</div>
+
+<!-- User Age -->
+<div class="mb-4 text-black font-light relative">
+    <i class="fas fa-user absolute left-3 top-1/2 transform -translate-y-1/2 text-black"></i>
+    <input type="text" placeholder="User Age"  name="User_Age" min="0" max="122" required
+           class="w-full pl-10 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+</div>
+
+<!-- Device Type -->
+<div class="mb-4 text-black font-light relative">
+    <i class="fas fa-mobile-alt absolute left-3 top-1/2 transform -translate-y-1/2 text-black"></i>
+    <input type="text" placeholder="Device Type"  name="Device_Type" required
+           class="w-full pl-10 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+</div>
+
+<!-- Accept Terms -->
+<div class="mb-4 flex items-center">
+    <input type="checkbox" id="acceptTerms" class="mr-2 focus:ring-2 focus:ring-yellow-400" required>
+    <label for="acceptTerms" class="text-black font-light">Accept all terms and conditions</label>
+</div>
+
+
+                <!-- Submit Button -->
+                <button type="submit" class="bg-red-800 text-white px-6 py-2 rounded-md shadow hover:bg-gray-800 transition">SEND</button>
+				{% if success_message %}
+				<h2>
+					{{success_message }}
+				</h2>
+				{% endif %}
+
+            </form>
+        </div>
+
+        <!-- Right Side: Image -->
+        <div>
+            <img src="{% static 'pay.png' %}" alt="Illustration" class="h-full">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+  <!-- Footer Section -->
+  <footer class=" bg-red-900 text-white py-8 mt-40">
+    <div class="container relative mx-auto px-4 flex flex-col md:flex-row justify-between items-center md:items-start">
+        <!-- Left Section: Logo and Description -->
+        <div class="mb-6 md:mb-0 ml-20">
+            <img src="{% static 'logo.jpg' %}" alt="BSC Logo" class="h-8 w-20"> <!-- Adjusted height for consistency -->
+            <p class="text-sm text-white font-bold mt-4">Our Location</p>
+            <ul class=" font-regular mt-2" style="font-size: 12px">
+                <li>Gishushu</li>
+                <li>Building, Kisimenti – Gasabo</li>
+                <li>P.O Box 1234, Kigali-Rwanda</li>
+            </ul>
+        </div>
+
+        <!-- Middle Section: Company Links -->
+        <div class="mb-6 md:mb-0 ml-20">
+            <h3 class="text-sm font-semibold mb-4 text-white font-bold">Company Links</h3>
+            <ul class=" font-regular mt-2" style="font-size: 12px">
+                <li><a href="/" class="hover:text-white">Home</a></li>
+                <li><a href="/about" class="hover:text-white">About</a></li>
+                <li><a href="/fraud" class="hover:text-white">Fraud Detection</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Section: Contact Info -->
+        <div class=" ml-20">
+            <h3 class="text-sm font-bold text-white mb-4 ">Contact Us</h3>
+            <p class=" mb-4" style="font-size: 12px">FraudDetectionexample.com</p>
+            <a href="Contact.html" class="mt-6 flex items-center justify-center bg-white border border-red-600 text-black px-2 py-0.5 rounded-md font-light text-xs relative w-full lg:w-auto" style="box-shadow: 0 4px 8px rgba(237, 183, 183, 0.5);">
+                <span class="font-bold text-gray-700" style="font-size: 10px">Get In Touch</span>
+            </a>
+            
+        </div>
+
+        <!-- Right Section: Social Media -->
+        <div class="md:w-1/4 text-center md:text-left ml-20">
+            <p class="text-sm mb-4 text-white font-bold">Social Media</p>
+            <div class="flex justify-center md:justify-start space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Section: Copyright -->
+    <div class="mt-8 border-t border-gray-400 pt-4 text-center relative mx-auto" style="font-size: 12px; max-width: 50%;">
+        <p>
+            &copy; 2024 Fraud Detection All rights reserved.
+        </p>
+    </div>
+    
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+        <style>
+        .shadow-red-custom {
+            box-shadow: 0 4px 6px rgba(244, 142, 142, 0.3), 0 1px 3px rgba(242, 125, 125, 0.15);
+        }
+   
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- Header Section -->
+    <header class="bg-white py-4 shadow-red-custom sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+            <div class="flex items-center ml-20">
+                <!-- Set logo size to 15px and make sure it doesn't affect header layout -->
+                <img src="{% static 'logo.jpg' %}" alt="Logo" class="w-[60px] h-[60px] mr-20">
+            </div>
+            <nav class="space-x-8 mr-20 font-regular text-xs" style="font-size: 15px;">
+                <a href="/" class="text-red hover:text-red">Home</a>
+                <a href="/about" class="text-black hover:text-red">About</a>
+                <a href="/fraud" class="text-black hover:text-red">Fraud Detection</a>
+            </nav>
+            <div class="flex space-x-4 items-center mr-20">
+                <!-- Contact Us Button -->
+                <a href="Contact.html" class="bg-red-700 text-white px-6 py-1 rounded-md font-light text-xs flex items-center justify-center" style="box-shadow: 0 4px 8px rgba(237, 183, 183, 0.5);">
+                    <span class="font-bold text-white" style="font-size: 11px">Contact Us</span>
+                </a>
+                <!-- Search Button -->
+                <a href="#" class="flex items-center justify-center bg-white border border-red-600 text-black px-6 py-1 rounded-md font-light text-xs relative w-full lg:w-auto" style="box-shadow: 0 4px 8px rgba(237, 183, 183, 0.5);">
+                    <span class="font-light text-black" style="font-size: 11px">Search</span>
+                    <i class="text-black font-light fa-solid fa-magnifying-glass ml-4"></i> <!-- Icon after the text -->
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    
+    
+
+    <!-- Main Section -->
+    <main class="max-w-7xl mx-auto py-12 px-6 ml-20 mt-12">
+        <div class="flex justify-between items-center">
+            <!-- Left Side (Text Section) -->
+            <div class="max-w-lg">
+                <h2 class="text-2xs font-bold text-gray-800">Welcome to the </h2>
+                <h3><span class=" text-4xl font-bold text-black">Fraud Detection System</span></h3>
+                <p class="text-lg text-black mt-4 font-regular text-xs" style="font-size: 13px;">A powerful tool for monitoring and preventing fraudulent transactions leveraging advanced algorithms and real-time data analysis to detect anomalies, ensure financial security, and build trust in every transaction.</p>
+                <div class="flex space-x-4 items-center mr-20 mt-6">
+                    <!-- Contact Us Button -->
+                    <a href="/fraud" class="bg-red-700 text-white px-6 py-1 rounded-md font-light text-xs flex items-center justify-center" style="box-shadow: 0 4px 8px rgba(237, 183, 183, 0.5);">
+                        <span class="font-bold text-white" style="font-size: 11px">Detect fraud</span>
+                    </a>
+                    </div>
+    
+            </div>
+
+            <!-- Right Side (Image Section) -->
+            <div class="w-96 h-96 rounded-full bg-white shadow-red-custom flex items-center justify-center mr-20">
+                <div class="w-82 h-82 rounded-full overflow-hidden">
+                    <img src="{% static 'image1.png' %}" alt="Your Image" class="w-full h-full object-cover shadow-red-custom">
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </main>
+
+
+    <!--Why Choose Our Fraud Detection System?-->
+<section id="our-management" class="bg-white mt-20">
+    <div class="container mx-auto mt-10 text-center">
+        <h2 class="text-2xl font-bold mb-8">Why Choose Our Fraud Detection System?</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          
+            <!-- Card 1 -->
+            <div class="flex flex-col items-center mt-8">
+                <img src="{% static 'image 3.png' %}" alt="CEO" class="w-24 h-24 object-cover rounded-full mb-2">
+                <h3 class="text-sm font-bold text-gray-700 text-center">Real-Time Monitoring</h3>
+                <p class="text-xs text-gray-500 text-center mt-2"> Detect fraudulent activities instantly with advanced algorithms.</p>
+            </div>
+            
+
+<!-- Card 2 -->
+<div class=" flex flex-col items-center mt-8 ">
+    <img src="{% static 'image 4.png' %}" alt="Corporate Officer" class="w-24 h-24 object-cover rounded-full mb-4">
+    <h3 class="text-sm font-bold text-gray-700 text-center">Comprehensive Reporting</h3>
+    <p class="text-xs text-gray-500 text-center mt-2">Generate detailed reports to analyze trends and risks.</p>
+</div>
+
+<!-- Card 3 -->
+<div class=" flex flex-col items-center mt-8 ">
+    <img src="{% static 'image 5.png' %}" alt="Technical Officer" class="w-24 h-24 object-cover rounded-full mb-4">
+    <h3 class="text-sm font-bold text-gray-700 text-center">High Accuracy</h3>
+    <p class="text-xs text-gray-500 text-center mt-2">Our AI-powered models ensure precise fraud detection.</p>
+</div>
+
+            <!-- Card 4 -->
+            <div class=" flex flex-col items-center mt-8 ">
+                <img src="{% static 'image 6.png' %}" alt="Financial Officer" class="w-24 h-24 object-cover rounded-full mb-4">
+                <h3 class="text-sm font-bold text-gray-700 text-center">Scalable System</h3>
+                <p class="text-xs text-gray-500 text-center mt-2">Handle large datasets and high transaction volumes effortlessly.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+  <!-- Footer Section -->
+ <!-- Footer Section -->
+ <footer class=" bg-red-900 text-white py-8 mt-40">
+    <div class="container relative mx-auto px-4 flex flex-col md:flex-row justify-between items-center md:items-start">
+        <!-- Left Section: Logo and Description -->
+        <div class="mb-6 md:mb-0 ml-20">
+            <img src="{% static 'logo.jpg' %}" alt="BSC Logo" class="h-8 w-20"> <!-- Adjusted height for consistency -->
+            <p class="text-sm text-white font-bold mt-4">Our Location</p>
+            <ul class=" font-regular mt-2" style="font-size: 12px">
+                <li>Gishushu</li>
+                <li>Building, Kisimenti – Gasabo</li>
+                <li>P.O Box 1234, Kigali-Rwanda</li>
+            </ul>
+        </div>
+
+        <!-- Middle Section: Company Links -->
+        <div class="mb-6 md:mb-0 ml-20">
+            <h3 class="text-sm font-semibold mb-4 text-white font-bold">Company Links</h3>
+            <ul class=" font-regular mt-2" style="font-size: 12px">
+                <li><a href="/" class="hover:text-white">Home</a></li>
+                <li><a href="/about" class="hover:text-white">About</a></li>
+                <li><a href="/fraud" class="hover:text-white">Fraud Detection</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Section: Contact Info -->
+        <div class=" ml-20">
+            <h3 class="text-sm font-bold text-white mb-4 ">Contact Us</h3>
+            <p class=" mb-4" style="font-size: 12px">FraudDetectionexample.com</p>
+            <a href="Contact.html" class="mt-6 flex items-center justify-center bg-white border border-red-600 text-black px-2 py-0.5 rounded-md font-light text-xs relative w-full lg:w-auto" style="box-shadow: 0 4px 8px rgba(237, 183, 183, 0.5);">
+                <span class="font-bold text-gray-700" style="font-size: 10px">Get In Touch</span>
+            </a>
+            
+        </div>
+
+        <!-- Right Section: Social Media -->
+        <div class="md:w-1/4 text-center md:text-left ml-20">
+            <p class="text-sm mb-4 text-white font-bold">Social Media</p>
+            <div class="flex justify-center md:justify-start space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Section: Copyright -->
+    <div class="mt-8 border-t border-gray-400 pt-4 text-center relative mx-auto" style="font-size: 12px; max-width: 50%;">
+        <p>
+            &copy; 2024 Fraud Detection All rights reserved.
+        </p>
+    </div>
+    
+</footer>
+
+</body>
+</html>
